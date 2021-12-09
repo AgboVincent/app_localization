@@ -49,6 +49,12 @@ class _LocalizationSystemPageState extends State<LocalizationSystemPage> {
                 fontSize: 30,
                 fontWeight: FontWeight.w500,
               ),
+            ),
+            Container(
+              decoration:const BoxDecoration(
+                color: Colors.amberAccent,
+                
+              )
             )
            ],
          ),

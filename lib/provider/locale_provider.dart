@@ -13,7 +13,6 @@ class LocaleProvider extends ChangeNotifier{
     _locale = locale;
     print(locale);
     notifyListeners();
-  
   }
 
   void clearLocale(){

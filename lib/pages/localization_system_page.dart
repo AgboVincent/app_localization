@@ -42,6 +42,13 @@ class _LocalizationSystemPageState extends State<LocalizationSystemPage> {
                 fontSize: 30,
                 fontWeight: FontWeight.w500,
               ),
+            ),
+            Text(
+              AppLocalizations.of(context)!.hello("vin"),
+              style: const TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.w500,
+              ),
             )
            ],
          ),
